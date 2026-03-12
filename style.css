@@ -1,0 +1,287 @@
+/* Medical Image Analysis System - Custom Styles */
+
+/* Global Styles */
+.stApp {
+    background-color: #f8f9fa;
+}
+
+/* Academic Header */
+.academic-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.academic-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.academic-header h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    opacity: 0.95;
+}
+
+.academic-header p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    opacity: 0.9;
+}
+
+/* Cards and Containers */
+.dashboard-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.metric-card h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.metric-card p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0.5rem 0 0;
+}
+
+/* Buttons */
+.stButton > button {
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s;
+    border: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Primary button */
+.stButton > button[kind="primary"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+/* Forms */
+.stTextInput > div > div > input {
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    padding: 0.75rem 1rem;
+    transition: border-color 0.3s;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 2px rgba(102,126,234,0.1);
+}
+
+/* Select boxes */
+.stSelectbox > div > div > select {
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    padding: 0.5rem;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.sidebar .sidebar-content {
+    background: white;
+}
+
+/* Tables */
+.stDataFrame {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.stDataFrame th {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.stDataFrame td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Progress bars */
+.stProgress > div > div > div > div {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 10px;
+}
+
+/* Alerts and messages */
+.stAlert {
+    border-radius: 12px;
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+    animation: slideIn 0.5s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Success message */
+.stAlert.success {
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    color: #155724;
+}
+
+/* Error message */
+.stAlert.error {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: #721c24;
+}
+
+/* Info message */
+.stAlert.info {
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #0c5460;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.streamlit-expanderContent {
+    background: white;
+    border-radius: 0 0 12px 12px;
+    padding: 1rem;
+    margin-top: -0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .academic-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .academic-header h3 {
+        font-size: 1rem;
+    }
+    
+    .dashboard-card {
+        padding: 1rem;
+    }
+}
+
+/* Loading spinner */
+.stSpinner > div {
+    border-top-color: #667eea !important;
+}
+
+/* Tooltips */
+.stTooltipIcon {
+    color: #667eea;
+}
+
+/* Checkbox */
+.stCheckbox > label {
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.stCheckbox > label:hover {
+    background-color: rgba(102,126,234,0.1);
+}
+
+/* Radio buttons */
+.stRadio > div {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/* File uploader */
+.stFileUploader {
+    border: 2px dashed #667eea;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.stFileUploader:hover {
+    background: rgba(102,126,234,0.05);
+    border-color: #764ba2;
+}

@@ -1,0 +1,21 @@
+medical.io/
+│
+├── .streamlit/
+│   └── config.toml
+├── runtime.txt
+├── requirements.txt
+├── packages.txt (optional - delete if not needed)
+├── app.py
+├── auth.py
+├── database.py
+├── security.py
+├── logging_system.py
+├── admin_panel.py
+├── user_panel.py
+├── pages/
+│   ├── login.py
+│   ├── register.py
+│   ├── forgot_password.py
+│   └── dashboard.py
+└── assets/
+    └── style.css
